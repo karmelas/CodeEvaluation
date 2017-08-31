@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>UI Dev Project - Directory Listing</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div id="container">
+
+    <h1>Company Directory</h1>
+
+    <!-- this table needs to be populated with data from `users.js` -->
+    <!-- feel free to change the layout -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Title</th>
+                <th>Office</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="user_list">
+            <!-- each row represents a user -->
+            <tr>
+                <td>[user's name]</td>
+                <td>[user's title]</td>
+                <td>[user's phone]</td>
+                <td>[user's office]</td>
+                <td>
+                  <!-- clicking Edit should make the fields enabled to edit the user's entry -->
+                  [Edit]
+                </td>
+                <td>
+                    <!-- clicking X should delete the user's entry -->
+                    [X]
+                </td>
+                <!-- add any other action/s that you think is appropriate -->
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!-- bring in any other librarys/frameworks that you need -->
+<!-- explain why you choose the particular librarys/frameworks -->
+
+<script src="js/users.js"></script>
+
+</body>
+</html>
