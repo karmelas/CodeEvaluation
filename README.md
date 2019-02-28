@@ -1,4 +1,4 @@
-# SciplayCodeEvaluation
+# CodeEvaluation
 
 * Create a directory listing using the users from js/users.js
 
